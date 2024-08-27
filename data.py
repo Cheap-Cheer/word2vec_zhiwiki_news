@@ -10,9 +10,8 @@ def convert_to_simplified_chinese(temp_sentence):
 
 def data_process():
     space = ' '
-    i = 0
     l = []
-    zhiwiki_name = './data/zhiwiki-latest-pages-articles.xml.bz2'
+    zhiwiki_name = './data/zhwiki-latest-pages-articles.xml.bz2'
     f = open('./data/reduce_zhiwiki.txt', 'w', encoding='utf-8')
     # 读取xml文件中的语料
     print('Start reading zhiwiki...')
